@@ -1,0 +1,44 @@
+# Environment and secrets
+.env
+*.env
+!.env.example
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Initialization marker
+.initialized
+
+# Personal data (if you want to keep some things private)
+# Uncomment the following to keep certain domains private:
+# domains/personal/profile/facts.md
+# domains/personal/finances/
+# domains/personal/health/
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# CSV exports (if auto-generated)
+*.csv
+!*example*.csv
+
+# OS-specific
+.Spotlight-V100
+.Trashes
+.AppleDouble
+.LSOverride
